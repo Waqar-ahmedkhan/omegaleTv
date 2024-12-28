@@ -83,8 +83,8 @@ export default function Receiver() {
 
   return (
     <div>
-      <h1>Receiver</h1>
-      <video ref={remoteVideoRef} autoPlay playsInline></video> {/* Display remote video */}
+      <h1 className="text-fuchsia-300 text-2xl ">Receiver</h1>
+      <video className="" ref={remoteVideoRef} autoPlay playsInline></video> {/* Display remote video */}
     </div>
   );
 }
